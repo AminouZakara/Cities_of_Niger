@@ -9,9 +9,6 @@ const App = () => {
   console.log(Cities)
   return (
     <div className='app'>
-      
-      App
-
       {Cities.map((Niger)=>
         <Card title={Niger.city}
         desc={Niger.desc}
